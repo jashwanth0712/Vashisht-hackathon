@@ -4,13 +4,6 @@ import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 import { Player } from '@lottiefiles/react-lottie-player';
 
-import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
-} from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
-
 function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">

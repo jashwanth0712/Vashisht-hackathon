@@ -4,7 +4,22 @@ import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
 import { Player } from '@lottiefiles/react-lottie-player';
+
+
+
 function Home() {
+
+  React.useEffect(() => {
+    const script = document.createElement('script');
+    script.src = 'https://apply.devfolio.co/v2/sdk.js';
+    script.async = true;
+    script.defer = true;
+    document.body.appendChild(script);
+    return () => {
+      document.body.removeChild(script);
+    }
+  }, []);
+
   return (
     <section>
       <Container fluid className="home-section" id="home">
@@ -17,9 +32,17 @@ function Home() {
                 Vashist 
                 <strong className="main-name"> Hackathon</strong>
               </h1>
-
+              
               <div style={{textAlign: "left" ,padding:50}}>
                 <Type/>
+              </div>
+              <div  style={{textAlign: "left" ,paddingleft:50}}>
+              <div 
+                class="apply-button" 
+                data-hackathon-slug="vashist" 
+                data-button-theme="dark"
+                style={{height: "44px" , width: "312px",padding:50,paddingleft:100}}
+                ></div>
               </div>
             </Col>
 
