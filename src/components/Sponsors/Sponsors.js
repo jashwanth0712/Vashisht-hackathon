@@ -9,16 +9,16 @@ function Sponsors() {
     <div fluid className="sponsors">
       <div className="sponsors__title">
         <h1>
-          Our <strong className="purple">Sponsors</strong>
+          Our Amazing <strong className="purple">Sponsors</strong>
         </h1>
-        <p>
-          On behalf of team HackNITR, we would like to publicly thank the
+        {/* <p>
+          On behalf of <strong className="yellow">GDSC </strong>and <strong className="yellow">CSclub</strong> IIITDM , we would like to publicly thank the
           generous sponsers without whom this event could not be held so
           smoothly. Our sponsors are an extension of our event, we make their
           presence obvious by integrating them in natural ways which promote the
           vision and brand. Till date our sponsors are very happy and eager to
-          kepp in business with us by supporting our vision with whole heart.
-        </p>
+          keep in business with us by supporting our vision with whole heart.
+        </p> */}
       </div>
       <div className="sponsors__info">
         <h2>Gold</h2>
